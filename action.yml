@@ -1,0 +1,5 @@
+name: "Inso"
+description: "Inso"
+runs:
+  using: "docker"
+  image: "Dockerfile"
