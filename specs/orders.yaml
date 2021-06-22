@@ -16,16 +16,6 @@ paths:
       summary: Fetches an order
       tags:
         - order
-      x-kong-plugin-rate-limiting-advanced:
-        enabled: true
-        config:
-          limit:
-          - 3
-          window_size:
-          - 10
-          sync_rate: -1
-          strategy: cluster
-          window_type: sliding
       x-kong-plugin-mocking:
         enabled: true
         config:
