@@ -21,4 +21,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Inso test
         uses: ikeike443/inso-action@main
+      - name: exec inso
         run: ./node_modules/insomnia-inso/bin/inso --help
