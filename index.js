@@ -4,7 +4,7 @@ const core = require("@actions/core");
 
 async function action() {
 
-  core.addPath("/usr/local/insomnia-inso/bin/")
+  core.addPath("/usr/local/insomnia-inso/bin/inso")
 }
 
 if (require.main === module) {

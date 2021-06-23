@@ -10,7 +10,7 @@ const core = __nccwpck_require__(261);
 
 async function action() {
 
-  core.addPath("/usr/local/insomnia-inso/bin/")
+  core.addPath("/usr/local/insomnia-inso/bin/inso")
 }
 
 if (require.main === require.cache[eval('__filename')]) {
