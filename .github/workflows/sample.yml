@@ -22,4 +22,4 @@ jobs:
       - name: Inso test
         uses: ikeike443/inso-action@main
       - name: exec inso
-        run: inso --help
+        run: /usr/local/insomnia-inso/bin/inso --help
