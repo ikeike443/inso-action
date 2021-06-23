@@ -16,8 +16,11 @@ RUN cp node_modules/insomnia-inso/dist/* /usr/local/insomnia-inso/dist/
 
 # RUN cp -r node_modules/insomnia-inso/node_modules/ /usr/local/insomnia-inso/node_modules/
 
-COPY entrypoint.sh /entrypoint.sh
+# COPY entrypoint.sh /entrypoint.sh
 
-ENTRYPOINT [ "/entrypoint.sh" ]
+# ENTRYPOINT [ "/entrypoint.sh" ]
 
 # ENTRYPOINT [ "inso", "--help" ]
+
+COPY dist/index.js /index.js
+ENTRYPOINT [ "node", "/index.js" ]
