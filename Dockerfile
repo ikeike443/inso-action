@@ -24,8 +24,8 @@ COPY entrypoint.sh /entrypoint.sh
 
 CMD [ "inso", "--help" ]
 
-ENTRYPOINT [ "inso" ]
-# ENTRYPOINT [ "/entrypoint.sh" ]
+# ENTRYPOINT [ "inso" ]
+ENTRYPOINT [ "/entrypoint.sh" ]
 
 # ENTRYPOINT [ "inso", "--help" ]
 
