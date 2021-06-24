@@ -1,3 +1,3 @@
 #! /bin/sh
 
-inso $1
+inso $1 > /tmp/kong.yaml
