@@ -1,5 +1,3 @@
-#!/bin/sh -l
+#! /bin/sh
 
-# /usr/local/insomnia-inso/bin/inso --help
-
-/usr/local/insomnia-inso/bin/inso --help
+inso $1

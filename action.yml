@@ -1,5 +1,12 @@
 name: "Inso"
 description: "Inso"
+inputs:
+  opt-string:
+    description: "options"
+    required: true
+    default: "--help"
 runs:
   using: "docker"
   image: "Dockerfile"
+  args:
+    - ${{ inputs.args.opt-string }}
