@@ -9,4 +9,4 @@ runs:
   using: "docker"
   image: "Dockerfile"
   args:
-    - ${{ inputs.opt-string }}
+    - ${{ inputs.args.opt-string }}
